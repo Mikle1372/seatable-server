@@ -1,0 +1,30 @@
+# Исключаем логи
+logs/
+*.log
+
+# Исключаем базы данных
+db-data/
+seafile-data/
+storage-data/
+
+# Исключаем временные файлы
+__pycache__/
+*.pyc
+tmpfiles/
+
+# Исключаем SSL-сертификаты
+ssl/
+
+# Исключаем PID-файлы
+pids/
+
+# Исключаем nginx-логи
+nginx-logs/
+
+# Включаем только конфигурационные файлы
+!conf/*.conf
+!conf/*.py
+
+# Исключаем резервные копии
+backups/
+snapshots/

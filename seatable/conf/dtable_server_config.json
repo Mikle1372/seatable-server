@@ -1,0 +1,12 @@
+
+{
+    "host": "mariadb",
+    "user": "root",
+    "password": "Rossia",
+    "database": "dtable_db",
+    "port": 3306,
+    "private_key": "f0b#t7m&=br9#*@swz!wo4&9f)9vp@k*g09c!)1k#u&&a+#rx1",
+    "redis_host": "redis",
+    "redis_port": 6379,
+    "redis_password": ""
+}
